@@ -37,6 +37,7 @@ function pickHandler (e) {
 	Telegram.WebApp.MainButton.show()
 }
 
+
 function sendDateTime () {
 	var timestamp = pickers.date.value
 		? new Date(pickers.date.value)
